@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="sum"></p>
+    <p id="prod"></p>
+    <p id="ave"></p>
+</body>
+
+<script>
+    let $num1 = parseFloat (prompt("Please enter your first number: "));
+    let $num2 = parseFloat (prompt("Please enter your second number: "));
+
+    let $sum = $num1 + $num2;
+    let $prod = $num1 * $num2;
+    let $ave = ($num1+$num2)/2;
+
+    document.getElementById("sum").innerHTML = "SUM: " + $sum;
+    document.getElementById("prod").innerHTML = "PRODUCT: " + $prod;
+    document.getElementById("ave").innerHTML = "AVERAGE: " + $ave;
+
+    alert("SUM: " + $sum + "\n" + "PRODUCT: " + $prod + "\n" + "AVERAGE: " + $ave + "\n" + "")
+</script>
+
+<script src = "InputValue1.js"></script>
+
+</html>
