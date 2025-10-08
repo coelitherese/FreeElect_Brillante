@@ -49,7 +49,9 @@ console.log("\n")
 
 console.log("\n")
 
-    
+    for (d=7 ; d<=193 ; d=(d*2)-1){
+    console.log("Looping Value: " + d);
+    }
 
 /*
 FOR LOOP - Used when you know exactly how many times you want to execute a statement or a block of code.
